@@ -47,7 +47,7 @@ Step 1: Clone or Download
 Clone the repository or download the files to your local server:
 
 bash
-git clone https://github.com/yourusername/login-registration-system.git
+git clone https://github.com/adamelkhattabi/LoginRegisterResponsiveHTML-PHP.git
 Place the project in your XAMPP htdocs folder:
 
 text
@@ -60,7 +60,7 @@ Create a new database named register_login_db
 Run the following SQL query:
 
 sql
-CREATE TABLE register_login_db (
+CREATE TABLE register_login_table (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(150) NOT NULL UNIQUE,
@@ -204,12 +204,12 @@ Open a Pull Request
 📄 License
 This project is open source and available under the MIT License.
 
-👤 Author
-Your Name
+👤 @adamelkhattabi
+Adam EL KHATTABI
 
-GitHub: @yourusername
+GitHub: @adamelkhattabi
 
-Email: your.email@example.com
+Email: adamelkt96@gmail.com
 
 🙏 Acknowledgments
 Font Awesome for icons
